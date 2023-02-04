@@ -1,0 +1,37 @@
+[
+    {
+        "fileId": 0,
+        "fileName": "1.txt",
+        "fileSize": "34 Bytes",
+        "createdDate": "2023-02-04 09:40:56.632206",
+        "deleted": true
+    },
+    {
+        "fileId": 1,
+        "fileName": "1.txt",
+        "fileSize": "34 Bytes",
+        "createdDate": "2023-02-04 10:03:06.606574",
+        "deleted": false
+    },
+    {
+        "fileId": 2,
+        "fileName": "1.txt",
+        "fileSize": "34 Bytes",
+        "createdDate": "2023-02-04 10:03:07.516356",
+        "deleted": true
+    },
+    {
+        "fileId": 3,
+        "fileName": "1.txt",
+        "fileSize": "34 Bytes",
+        "createdDate": "2023-02-04 10:03:08.291854",
+        "deleted": false
+    },
+    {
+        "fileId": 4,
+        "fileName": "10.jpg",
+        "fileSize": "133.587890625 KB",
+        "createdDate": "2023-02-04 11:12:10.603434",
+        "deleted": false
+    }
+]

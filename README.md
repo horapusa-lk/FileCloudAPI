@@ -115,7 +115,15 @@ Run main.py
 ```python
 def upload_file(file_name):
     import requests
-    x = requests.post(url="http://127.0.0.1:8000/uploadFile", files={"fileFata": open(file_name, 'rb')}, headers={"fileName": file_name})
+    if "/" in file_name:
+        file_n = file_name.split("/")[-1]
+    if "//" in file_name:
+        file_n = file_name.split("//")[-1]
+    if "\\" in file_name:
+        file_n = file_name.split("\\")[-1]
+    else:
+        file_n = file_name
+    x = requests.post(url="http://127.0.0.1:8000/uploadFile", files={"fileFata": open(file_name, 'rb')}, headers={"fileName": file_n})
     return x.text
 ```
 
